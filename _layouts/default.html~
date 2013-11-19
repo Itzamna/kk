@@ -46,7 +46,7 @@
     <div class="container">
 
       <div class="masthead">
-        <h3>Питомник Дивный Друг</h3>
+        <h3>Kennel Divny</h3>
         <div class="navbar">
           <div class="navbar-inner">
               <ul class="nav">
@@ -72,7 +72,7 @@
       <hr>
 
       <!-- Example row of columns -->
-      <div class="row-fluid">
+      <div class="row-fluid opacity">
         <div class="span4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
