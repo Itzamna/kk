@@ -287,7 +287,7 @@ input {
 	padding-left:20px;
 	height: 56px;
 	width:156px;
-	font-size:20px;
+	font-size:25px;
 	font-family: 'HansHand', 'Marck Script', cursive;
 	text-decoration: none;
 	font-weight:bold;

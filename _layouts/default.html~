@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-  <title>Питомник кеесхондов Дивный Друг - Main Page</title>
+  <title>Питомник кеесхондов Дивный Друг - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -37,8 +37,8 @@
                     <link rel="apple-touch-icon-precomposed" href="../template/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../template/ico/favicon.png">                     
 </head>
-          <!--  Included file menu.html not found in _includes directory
-              Main Page
+          <!--  {% include menu.html %}
+              {{ page.title }}
                 -->
 
   <body>
@@ -47,9 +47,9 @@
     <div class="container">
         <div class="header-kk">
         <span class="pull-right right-logo">Монопородный питомник кеесхондов<br>Свидетельство о регистрации №123456 RKF-FCI</span>
-        <div class="logo">Divny Drug</div>
+        <h1>Divny Drug</h1>
         </div>
-    <!--<div class="row">
+    <div class="row">
     <div class="span12">
     <div id="topmenu">
 		  <ul>
@@ -60,8 +60,8 @@
 		  </ul>
 		</div>
 		</div>
-		</div>-->
-        <div class="navbar">
+		</div>
+        <!--<div class="navbar">
           <div class="navbar-inner">
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
@@ -72,14 +72,13 @@
                 <li><a href="#">Contact</a></li>
               </ul>
           </div>
-        </div>
+        </div><!-- /.navbar -->
 </div>
     <div class="container content">
 
-        <h1>Main Page</h1>
+        <h1>{{ page.title }}</h1>
         
-        <p class="lead"><p> GHBDTTTTTTTTTTTTTTTTTTN!
- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p class="lead">{{ content }} Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
 
       <hr>
