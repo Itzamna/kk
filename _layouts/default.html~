@@ -44,12 +44,14 @@
   <body>
 <div id="wrapper">
 <div id="left-wr">
+<div id="diva"></div>
+<div id="los"></div>
     <div class="container">
         <div class="header-kk">
         <span class="pull-right right-logo">Монопородный питомник кеесхондов<br>Свидетельство о регистрации №123456 RKF-FCI</span>
-        <h1>Divny Drug</h1>
+        <div class="logo">Divny Drug</div>
         </div>
-    <div class="row">
+    <!--<div class="row">
     <div class="span12">
     <div id="topmenu">
 		  <ul>
@@ -60,8 +62,8 @@
 		  </ul>
 		</div>
 		</div>
-		</div>
-        <!--<div class="navbar">
+		</div>-->
+        <div class="navbar">
           <div class="navbar-inner">
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
@@ -72,7 +74,7 @@
                 <li><a href="#">Contact</a></li>
               </ul>
           </div>
-        </div><!-- /.navbar -->
+        </div>
 </div>
     <div class="container content">
 

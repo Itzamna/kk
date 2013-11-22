@@ -85,11 +85,11 @@ html {
 body {
   font: 14px/18px Arial, Tahoma, Verdana, sans-serif;
 	height: 100%;
-	background:#272703 url('../img/bg1.jpg') repeat-x top left fixed;
+	background:#7E756E url('../img/bg3.jpg') repeat-x top left fixed;
 	position:relative;
 	z-index:-1;
 /*background-color:#2F2B04;
-background-image: url(../img/gr-2.png),url(../img/gr-1.png),url(../img/gr-3.jpg);
+background-image: url(../img/gr-11.png),url(../img/gr-21.png),url(../img/gr-31.jpg);
 background-size: auto, auto, auto;
 padding: 0;
 margin: 0;
@@ -100,13 +100,21 @@ background-repeat: repeat-x;
 z-index:-1; */
 
 }
-#wrapper {
+/*#wrapper {
 	width: 100%;
 	min-width: 1000px;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
   background:transparent url('../img/hh.jpg') no-repeat top left fixed;
+}
+#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+  background:transparent url('../img/diva.png') no-repeat left 0px fixed;
 }
 #left-wr {
 	width: 100%;
@@ -115,6 +123,43 @@ z-index:-1; */
 	height: auto !important;
 	height: 100%;
   background:transparent url('../img/los.png') no-repeat right 0px fixed;
+}*/
+#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+  background:transparent url('../img/hh1.jpg') no-repeat left 0px fixed;
+}
+#left-wr {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+  background:transparent url('../img/hh2.jpg') no-repeat right 0px fixed;
+}
+#diva{
+  display:block;
+  position:fixed;
+	width: 226px;
+	height:408px;
+	z-index:400;
+  background:transparent url('../img/diva.png') no-repeat;
+  top:0px;
+  left:0px;
+  
+}
+#los {
+  display:block;
+  position:fixed;
+	width: 226px;
+	height:408px;
+	z-index:400;
+  background:transparent url('../img/los1.png') no-repeat;
+  top:70px;
+  right:0px;
 }
 .container{
 	color: #6379B0;
