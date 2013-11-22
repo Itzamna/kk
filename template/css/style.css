@@ -82,39 +82,31 @@ html {
       }
       
 /************************************************************************************/
+
 body {
   font: 14px/18px Arial, Tahoma, Verdana, sans-serif;
-	height: 100%;
-	background:#7E756E url('../img/bg3.jpg') repeat-x top left fixed;
-	position:relative;
-	z-index:-1;
-/*background-color:#2F2B04;
-background-image: url(../img/gr-11.png),url(../img/gr-21.png),url(../img/gr-31.jpg);
-background-size: auto, auto, auto;
-padding: 0;
-margin: 0;
-height: 100%;
-position:relative;
-background-attachment: fixed;
-background-repeat: repeat-x;
-z-index:-1; */
+  background-color:#7E756E;
+  background-image:  url(../img/gg-131.png),url(../img/gg-113.png),url(../img/gg-71.png),url(../img/gf-1.png);
+  background-size:  auto, auto, auto;
+  padding:0;margin:0;
+  height:100%;
+  width:8000px
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  position:relative;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  z-index:-1;
+}
 
-}
-/*#wrapper {
-	width: 100%;
-	min-width: 1000px;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-  background:transparent url('../img/hh.jpg') no-repeat top left fixed;
-}
 #wrapper {
 	width: 100%;
 	min-width: 1000px;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-  background:transparent url('../img/diva.png') no-repeat left 0px fixed;
+  background:transparent url('../img/hh3.png') no-repeat left 0px fixed;
 }
 #left-wr {
 	width: 100%;
@@ -122,23 +114,7 @@ z-index:-1; */
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-  background:transparent url('../img/los.png') no-repeat right 0px fixed;
-}*/
-#wrapper {
-	width: 100%;
-	min-width: 1000px;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-  background:transparent url('../img/hh1.jpg') no-repeat left 0px fixed;
-}
-#left-wr {
-	width: 100%;
-	min-width: 1000px;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-  background:transparent url('../img/hh2.jpg') no-repeat right 0px fixed;
+  background:transparent url('../img/hh6.png') no-repeat right 0px fixed;
 }
 #diva{
   display:block;
@@ -154,11 +130,11 @@ z-index:-1; */
 #los {
   display:block;
   position:fixed;
-	width: 226px;
+	width: 250px;
 	height:408px;
 	z-index:400;
   background:transparent url('../img/los1.png') no-repeat;
-  top:70px;
+  top:50px;
   right:0px;
 }
 .container{
