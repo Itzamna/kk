@@ -44,8 +44,7 @@
   <body>
 <div id="wrapper">
 <div id="left-wr">
-<div id="diva"></div>
-<div id="los"></div>
+
     <div class="container">
         <div class="header-kk">
         <span class="pull-right right-logo">Монопородный питомник кеесхондов<br>Свидетельство о регистрации №123456 RKF-FCI</span>
@@ -65,28 +64,16 @@
 		</div>-->
         <div class="navbar">
           <div class="navbar-inner">
-              <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Downloads</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+            {% include menu.html %}
           </div>
         </div>
 </div>
     <div class="container content">
-
+      <div class="row-fluid">
+      <div class="span12 p-20">
         <h1>{{ page.title }}</h1>
-        
         <p class="lead">{{ content }} Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-         {% include menu.html %}
-      <hr>
-
-      <!-- Example row of columns -->
-      <div class="row-fluid opacity">
+      </div>
         <div class="span4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -128,6 +115,8 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
+<div id="diva"></div>
+<div id="los"></div>
 </div>
 </div>
   </body>
