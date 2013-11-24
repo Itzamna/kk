@@ -1,45 +1,78 @@
-			<ul id="menu">
-			  <li class="firstlevel"><a href="#">О нас</a>
-			    <ul class="active">
-			      <li class="description"><a href="/ru/news.html">Новости</a></li>
-			      <li class="description"><a href="/ru/history.html">История</a></li>
-			      <li class="description"><a href="/ru/creation.html">Творчество</a></li>
-			    </ul>
-			  </li>
-			  <li class="firstlevel"><a href="#">Наши собаки</a>
-			    <ul class="active">
-			      <li class="description"><a href="/ru/janya.html">Джани</a></li>
-			      <li class="description"><a href="/ru/vamba.html">Вамба</a></li>
-			      <li class="description"><a href="/ru/fazana.html">Фазана</a></li>
-			    </ul>
-			  </li>
-			  <li class="firstlevel"><a href="#">Щенки</a>
-			    <ul class="active">
-			      <li class="description"><a href="/ru/information.html">Информация</a></li>
-			      <li class="description"><a href="/ru/note.html">Памятка владельцу</a></li>
-			      <li class="description"><a href="/ru/docs.html">Образцы документов</a></li>
-			      <li class="description"><a href="/ru/litters.html">Пометы</a></li>
-			    </ul>
-			  </li>
-			  <li class="firstlevel"><a href="#">Полезное</a>
-			    <ul class="active">
-			      <li class="description"><a href="/ru/history-breed.html">История породы</a></li>
-			      <li class="description"><a href="/ru/advices.html">Советы</a></li>
-			      <li class="description"><a href="/ru/ambulance.html">Скорая помощь</a></li>
-			    </ul>
-			  </li>
-			  <li class="firstlevel"><a href="#">Контакты</a>
-			    <ul class="active">
-			      <li class="description"><a href="/ru/feedback.html">Обратная связь</a></li>
-			      <li class="description"><a href="/ru/friends.html">Друзья</a></li>
-			    </ul>
-			  </li>
-			  <li class="firstlevel"><a href="/en/index.html">English version</a></li>
-			</ul>
+<ul class="nav">
+  <li class="active"><a href="/">Главная</a></li>
 
-<div class="social">
-	<a href="#"><img src="../template/img/facebook.png" alt=""></a>
-	<a href="#"><img src="../template/img/twitter.png" alt=""></a>
-</div>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      Новости
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="/news/2013.html">2013</a></li>
+      <li><a href="/news/2012.html">2012</a></li>
+      <li><a href="/news/2011.html">2011</a></li>
+      <li><a href="/news/2010.html">2010</a></li>
+      <li><a href="/news/2009.html">2009</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      О нас
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="/about-us.html">О питомнике</a></li>
+      <li><a href="/for-you/www.html">Хобби</a></li>
+      <li><a href="/contacts.html">Контакты</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      О Диве
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="/diva-divnaya-iz-mirashela/photo.html">Дива</a></li>
+      <li><a href="/diva-divnaya-iz-mirashela/photo.html">Фотографии</a></li>
+      <li><a href="/diva-divnaya-iz-mirashela/shows.html">Выставки</a></li>
+      <li><a href="/diva-divnaya-iz-mirashela/stories.html">Рассказы</a></li>
+    </ul>
+  </li>
+  
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      О породе
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="/keeshond/history.html">История породы</a></li>
+      <li><a href="/keeshond/standart-fci.html">Стандарт FCI</a></li>
+      <li><a href="/keeshond/standart-akc.html">Стандарт АКС</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      Щенки
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="/puppies">Есть щенки!</a></li>
+      <li><a href="/puppies/litters.html">Наши дети</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      Полезное
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="/useful/health.html">Здоровье</a></li>
+      <li><a href="/useful/care.html">Уход</a></li>
+      <li><a href="/useful/training.html">Воспитание</a></li>
+      <li><a href="/useful/breeding.html">Разведение</a></li>
+      <li><a href="/useful/literature.html">Литература</a></li>
+    </ul>
+  </li>
+
+</ul>
 
 
