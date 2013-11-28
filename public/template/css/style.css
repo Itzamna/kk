@@ -13,22 +13,22 @@
     font-style: normal;
 
 }
-html {
-	height: 100%;
-}
 
-body {
+html,body{background-color:transparent;}
+html{
+  height: 100%;
   font: 16px/20px Arial, Tahoma, Verdana, sans-serif;
-  background-color:#7E756E;
-  background-image: url(../img/bg.jpg);
-  background-position: bottom;
-  background-size: 100% auto;
-  
+  background:transparent url(../img/bg.jpg) no-repeat center bottom fixed;
+  -moz-background-size:cover; /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size:102% auto; /* Opera 9.5 */
+  -webkit-background-size:102% auto; /* Safari 3.0 */
+  -khtml-background-size:cover; /* Konqueror 3.5.4 */
+  background-size:cover; /* CSS3 */
 }
 .container {
   margin: 0 auto;
   max-width: 950px;
-	color: #6379B0;
+	color: #384872;
 	line-height:30px;
 	position:relative;
 
@@ -63,13 +63,13 @@ padding-left:40px;
   border-radius: 0 3px 3px 0;
 }
 .navbar .nav li ul.dropdown-menu li a {
-  color: #8B8B8B;
+  color: #585858;
   text-align:left;
   font-weight: bold;
   border:none;
 }
 .navbar .nav li ul.dropdown-menu li a:hover {
-  color: #555555;
+  color: #8B8B8B;
 }
 .navbar .nav > li > ul.dropdown-menu {
   color: #8B8B8B
@@ -87,15 +87,15 @@ border-left: 6px solid transparent;
 content: '';
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
-color: #555555;
+color: #808080;
 text-decoration: none;
-background-color: #e5e5e5;
 }
+
 .footer {
 text-align:center;
 }
 div.navbar-inner {
-  color: #8B8B8B;
+  color: #585858;
   background-image: linear-gradient(to bottom, #fff, #fCf2f2);
   background-repeat: repeat-x;
   border: 1px solid #d4d4d4;
@@ -104,7 +104,7 @@ div.navbar-inner {
 .navbar .nav > li > a {
   float: none;
   padding: 10px 15px 10px;
-  color: #8B8B8B;
+  color: #585858;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
   }
@@ -113,7 +113,7 @@ padding:20px 40px;
 }
 
 .right-logo {
-	font-family: Georgia, 'HansHand', 'Marck Script', cursive;
+	font-family: Georgia, cursive;
   margin: 10px 30px;
 	font-size:16px;
 	font-style:italic;
@@ -141,7 +141,8 @@ a:hover {
 	text-decoration: none;
 }
 p {
-	margin: 0 0 18px
+	margin: 0 0 18px;
+	text-indent: 20px;
 }
 img {
 	border: 1px solid #788ca4;
@@ -198,7 +199,7 @@ h6{
 
 TABLE {
     border-collapse: collapse; 
-    border: 3px groove #87a4f0;
+    border: 1px groove #87a4f0;
    }
    TD, TH {
     padding: 5px;
@@ -208,3 +209,17 @@ input {
 	vertical-align: middle;
 }
 
+.entry {
+  font-style:italic;
+	font-family: Georgia, cursive;
+	margin-bottom:20px;
+}
+
+.entry p{
+	margin: 0 20px 5px;
+	font-size:14px;
+	line-height:22px;
+}
+.contacts {
+  text-align:center;
+}
