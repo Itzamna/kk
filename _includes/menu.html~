@@ -31,7 +31,6 @@
     </a>
     <ul class="dropdown-menu">
       <li><a href="/diva-divnaya-iz-mirashela/">Дива</a></li>
-      <li><a href="/diva-divnaya-iz-mirashela/photo.html">Фотографии</a></li>
       <li><a href="/diva-divnaya-iz-mirashela/shows.html">Выставки</a></li>
       <li><a href="/diva-divnaya-iz-mirashela/stories.html">Рассказы</a></li>
     </ul>
@@ -43,7 +42,8 @@
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="/keeshond/history.html">О кеесхондах</a></li>
+      <li><a href="/keeshond/">О кеесхондах</a></li>
+      <li><a href="/keeshond/history.html">История породы</a></li>
       <li><a href="/keeshond/standart-fci.html">Стандарт FCI</a></li>
       <li><a href="/keeshond/standart-akc.html">Стандарт АКС</a></li>
     </ul>
@@ -54,7 +54,7 @@
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="/puppies">Есть щенки!</a></li>
+      <li><a href="/puppies/">Есть щенки!</a></li>
       <li><a href="/puppies/litters.html">Наши дети</a></li>
     </ul>
   </li>
