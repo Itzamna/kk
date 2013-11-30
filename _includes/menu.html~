@@ -56,6 +56,7 @@
     <ul class="dropdown-menu">
       <li><a href="/puppies/">Есть щенки!</a></li>
       <li><a href="/puppies/litters.html">Наши дети</a></li>
+      <li><a href="/puppies/puppies.html">Выбор щенка</a></li>
     </ul>
   </li>
   <li class="dropdown" {% if page.menu == 'useful' %} class='active' {% endif %}>
