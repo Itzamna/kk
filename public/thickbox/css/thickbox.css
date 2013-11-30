@@ -1,26 +1,21 @@
-/* ----------------------------------------------------------------------------------------------------------------*/
-/* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*/
-/* ----------------------------------------------------------------------------------------------------------------*/
+
 *{padding: 0; margin: 0;}
-/* ----------------------------------------------------------------------------------------------------------------*/
-/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
-/* ----------------------------------------------------------------------------------------------------------------*/
+
 #TB_window {
-  font: 12px Arial, Helvetica, sans-serif;
+  font: 14px Arial, Helvetica, sans-serif;
   color: #d28c57;
 }
 #TB_secondLine {
-  font: 10px Arial, Helvetica, sans-serif;
+  font: 15px Arial, Helvetica, sans-serif;
   color:#666666;
+  font-weight:bold;
 }
-#TB_window a:link {color: #d28c57;}
-#TB_window a:visited {color: #792720;}
-#TB_window a:hover {color: #792720;}
-#TB_window a:active {color: #792720;}
-#TB_window a:focus{color: #792720;}
-/* ----------------------------------------------------------------------------------------------------------------*/
-/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
-/* ----------------------------------------------------------------------------------------------------------------*/
+*#TB_window a:link {color: #eee;}
+#TB_window a:visited {color: #ddd; }
+#TB_window a:hover {color: #ddd;}
+#TB_window a:active {color: #ddd;}
+#TB_window a:focus{color: #ddd; }
+
 #TB_overlay {
   position: fixed;
   z-index:100;
@@ -48,15 +43,6 @@
   text-align:left;
   top:50%;
   left:50%;
-	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.5);
-	-moz-box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.5);
-	box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.5);
-	-webkit-transition: .5s;
-	-moz-transition: .5s;
-	transition: .5s;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
 }
 * html #TB_window { /* ie6 hack */
 position: absolute;
@@ -65,15 +51,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 #TB_window img#TB_Image {
   display:block;
   margin: 15px 0 0 15px;
-	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.5);
-	-moz-box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.5);
-	box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.5);
-	-webkit-transition: .5s;
-	-moz-transition: .5s;
-	transition: .5s;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
+
 }
 #TB_caption{
   height:25px;
