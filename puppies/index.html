@@ -2,22 +2,22 @@
 layout: default
 title: У нас есть щенки кеесхонда!
 menu: puppies
-slider-gallery:
+slider1:
   - a/agata4.jpg
-  - a/agata5.jpg
-  - a/agata6.jpg
   - a/aina3.jpg
-  - a/aina4.jpg
-  - a/ami3.jpg
   - a/ami4.jpg
-  - a/ami5.jpg
   - a/aramis4.jpg
-  - a/aramis5.jpg
-  - a/aramis6.jpg
-  - a/ariadna3.jpg
-  - a/ariadna4.jpg
   - a/ariadna5.jpg
+slider2:
+  - b/balu-2.jpg
+  - b/batman-2.jpg
+  - b/belinda.jpg
+  - b/black-silver.jpg
+  - b/butler.jpg
+  - b/bona.jpg
+  - b/banderas.jpg
 ---
+
 
 <h2>Дивный Друг А*</h2>
 <p><b>27 ноября</b> у нас родились малыши: 4 девочки и 1 прЫнц.</p>
@@ -29,7 +29,7 @@ slider-gallery:
 <p><b>Дива Дивная Из Мирашела</b> (Lohamras King Of The Road x Глория Флоренс Бесси Лайт) - Интерчемпион, Лучший Представитель Породы-2012, Чемпион Породы-2012, Гранд Чемпион России, Гранд Чемпион Украины, Чемпион России, Чемпион Украины, Чемпион НКП, Чемпион РКФ, Юный Чемпион России, Юный Чемпион НКП
 <br>6хCACIB, 2xR.CACIB, Лучший щенок XIV Национальной монопородной выставки, 2х Лучший Юниор "Евразии"-2010, Лучший Юниор породы-2010, Лучшая сука "России"-2010, BOS XV Национальной монопородной выставки, R.BOS XVI Национальной монопородной выставки, BIS-I монопородной выставки, BIG-II, BIG-III, JBIS-III
 <br>PHPT - отрицательна по рождению, HD-B, ED-0, PL-0, Глаза - чисто.</p>
-{% include slider-gallery.html %}
+{% include slider-many-gallery.html data=page.slider1 %}
 <table width="100%">
 <col width="50%"><col width="50%">
 <tr>
@@ -66,6 +66,7 @@ slider-gallery:
 
 <p><b>Лоссэ Аранель Из Мирашела</b> (Русское Серебро Персивалль Фо Невастар x Дива Дивная Из Мирашела) - Юный победитель клуба, кандидат в Юные Чемпионы России.
 <br>PHPT - отрицательна по рождению, HD-A</p>
+{% include slider-many-gallery.html data=page.slider2 %}
 <table width="100%">
 <col width="50%"><col width="50%">
 <tr>
