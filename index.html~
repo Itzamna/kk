@@ -13,5 +13,5 @@ menu: index
 <div class="entry">
   <p>В данный момент в нашем питомнике есть щенки кеесхонда.</p>
   <p>Более подобная информация <a href="/puppies">здесь</a>.</p>
-  <p align="center">{% include photo.html photo="a/ami15" %}{% include photo.html photo="a/black-silver5" %}</p>
+  <p align="center">{% include photo.html photo="a/ami12" %}{% include photo.html photo="a/black-silver5" %}</p>
 </div>
