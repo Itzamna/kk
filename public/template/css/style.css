@@ -91,7 +91,7 @@ color: #808080;
 text-decoration: none;
 }
 .clear{
-  clear: both; 
+  both:clear; 
 }
 .footer {
 text-align:center;
