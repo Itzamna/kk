@@ -235,10 +235,10 @@ input {
 	*display:inline;
 	zoom:1;
 	height:100px;
-	width:12%;
 }
 .superbox-list img{
 	border:none;
+	margin: 0px;
 }
 .superbox-img {
 	max-width:100%;
