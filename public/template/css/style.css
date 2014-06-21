@@ -257,7 +257,7 @@ input {
   float:left;
 	display:none;
 }
-.superbox-show img{
+.superbox-show img, img.superbox-current-img{
 	border:none;
 }
 .superbox-current-img {
