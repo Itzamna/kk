@@ -256,12 +256,8 @@ input {
   float:left;
 	display:none;
 }
-.superbox-show img, img.superbox-current-img{
-	border:none;
-}
 .superbox-current-img {
 	max-width:100%;
-	box-shadow:0 1px 4px #222;
   border:none;
 }
 .superbox-img:hover {
