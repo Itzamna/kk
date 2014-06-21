@@ -232,7 +232,7 @@ input {
 	*display:inline;
 	zoom:1;
 	height:100px;
-	max-width:100px;
+	width:15%;
 }
 .superbox-list img{
 	border:none;
