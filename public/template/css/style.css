@@ -229,7 +229,8 @@ input {
 	display:inline-block;
 	*display:inline;
 	zoom:1;
-	height:12.5%;
+	height:100px;
+	width:12.5%;
 }
 .superbox-list img{
 	border:none;
@@ -246,7 +247,7 @@ input {
 	box-shadow:inset 0 1px 5px #111;
 	-webkit-box-shadow:inset 0 1px 5px #111;
 	-moz-box-shadow:inset 0 1px 5px #111;
-	width:100%;
+	width:80%;
     float:left;
 	padding:25px;
 	display:none;
@@ -277,21 +278,21 @@ input {
 }
 @media only screen and (min-width: 320px) {
 	.superbox-list {
-		height:50%;
+		width:50%;
 	}
 }
 @media only screen and (min-width: 486px) {
 	.superbox-list {
-		height:25%;
+		width:25%;
 	}
 }
 @media only screen and (min-width: 768px) {
 	.superbox-list {
-		height:16.66666667%;
+		width:16.66666667%;
 	}
 }
 @media only screen and (min-width: 1025px) {
 	.superbox-list {
-		height:12.5%;
+		width:12.5%;
 	}
 }
