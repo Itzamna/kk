@@ -28,6 +28,7 @@ html{
 .container {
   margin: 0 auto;
   max-width: 950px;
+  min-width: 950px;
 	color: #384872;
 	line-height:30px;
 	position:relative;
