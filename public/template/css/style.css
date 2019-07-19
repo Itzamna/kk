@@ -92,7 +92,7 @@ color: #808080;
 text-decoration: none;
 }
 .clear{
-  both:clear; 
+  clear:both; 
 }
 .footer {
 text-align:center;
@@ -114,7 +114,10 @@ div.navbar-inner {
 .p-20 {
 padding:20px 40px;
 }
-
+ul > li{
+  margin-bottom:10px;
+  margin-left:10px;
+}
 .right-logo {
 	font-family: Georgia, cursive;
   margin: 10px 30px;
