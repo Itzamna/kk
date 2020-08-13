@@ -1,82 +1,104 @@
-<ul class="nav">
-  <li><a href="/">Главная</a></li>
+		<div class="header-v4">
 
-  <li class="dropdown" {% if page.menu == 'news' %} class='active' {% endif %}>
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      Новости
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="/news/2017.html">2017</a></li>      
-      <li><a href="/news/2016.html">2016</a></li>
-      <li><a href="/news/2015.html">2015</a></li>
-      <li><a href="/news/2014.html">2014</a></li>
-      <li><a href="/news/2013.html">2013</a></li>
-      <li><a href="/news/2012.html">2012</a></li>
-      <li><a href="/news/2011.html">2011</a></li>
-      <li><a href="/news/2010.html">2010</a></li>
-      <li><a href="/news/2009.html">2009</a></li>
-    </ul>
-  </li>
-  <li class="dropdown"{% if page.menu == 'about-us' %} class='active' {% endif %}>
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      О нас
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="/about-us.html">О питомнике</a></li>
-      <li><a href="/for-you/www.html">Наше хобби</a></li>
-    </ul>
-  </li>
-  <li class="dropdown"  {% if page.menu == 'dogs' %} class='active' {% endif %}>
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      Наши собаки
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="/diva-divnaya-iz-mirashela/">Дива Дивная Из Мирашела</a></li>
-      <li><a href="/divnyi-drug-gusja-lebed/">Дивный Друг Гуся-Лебедь</a></li>
-    </ul>
-  </li>
-  
-  <li class="dropdown" {% if page.menu == 'kees' %} class='active' {% endif %}>
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      О породе
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="/keeshond/">О кеесхондах</a></li>
-      <li><a href="/keeshond/history.html">История породы</a></li>
-      <li><a href="/keeshond/standart-fci.html">Стандарт FCI</a></li>
-      <li><a href="/keeshond/standart-akc.html">Стандарт АКС</a></li>
-      <li><a href="/keeshond/with-children.html">Кеесхонды и дети</a></li>
-    </ul>
-  </li>
-  <li class="dropdown"  {% if page.menu == 'puppies' %} class='active' {% endif %}>
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      Щенки
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="/puppies/">Щенки на продажу</a></li>
-      <li><a href="/puppies/litters.html">Наши пометы</a></li>
-      <li><a href="/puppies/puppies.html">Выбор щенка</a></li>
-      <li><a href="/puppies/jotting.html">Памятка владельцу</a></li>
-      <li><a href="/puppies/growing-up.html">Этапы взросления щенка</a></li>
-    </ul>
-  </li>
-  <li class="dropdown" {% if page.menu == 'useful' %} class='active' {% endif %}>
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      Полезное
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="/useful/health.html">Здоровье</a></li>
-      <li><a href="/useful/care.html">Уход</a></li>
-      <li><a href="/useful/training.html">Воспитание</a></li>
-      <li><a href="/useful/breeding.html">Разведение</a></li>
-      <li><a href="/useful/literature.html">Литература</a></li>
-    </ul>
-  </li>
-  <li><a href="/contacts.html">Контакты</a></li>
-</ul>
+			<nav class="navbar navbar-default" role="navigation" data-mcs-theme="minimal-dark">
+				<div class="menu-container">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-responsive-collapse">        
+					<div class="container">
+            <ul class="navbar-nav nav">
+              <li><a href="/">Главная</a></li>
+
+              <li class="dropdown" {% if page.menu == 'news' %} class='active' {% endif %}>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Новости
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/news/2017.html">2017</a></li>      
+                  <li><a href="/news/2016.html">2016</a></li>
+                  <li><a href="/news/2015.html">2015</a></li>
+                  <li><a href="/news/2014.html">2014</a></li>
+                  <li><a href="/news/2013.html">2013</a></li>
+                  <li><a href="/news/2012.html">2012</a></li>
+                  <li><a href="/news/2011.html">2011</a></li>
+                  <li><a href="/news/2010.html">2010</a></li>
+                  <li><a href="/news/2009.html">2009</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"{% if page.menu == 'about-us' %} class='active' {% endif %}>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  О нас
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/about-us.html">О питомнике</a></li>
+                  <li><a href="/for-you/www.html">Наше хобби</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"  {% if page.menu == 'dogs' %} class='active' {% endif %}>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Наши собаки
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/diva-divnaya-iz-mirashela/">Дива Дивная Из Мирашела</a></li>
+                  <li><a href="/divnyi-drug-gusja-lebed/">Дивный Друг Гуся-Лебедь</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown" {% if page.menu == 'kees' %} class='active' {% endif %}>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  О породе
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/keeshond/">О кеесхондах</a></li>
+                  <li><a href="/keeshond/history.html">История породы</a></li>
+                  <li><a href="/keeshond/standart-fci.html">Стандарт FCI</a></li>
+                  <li><a href="/keeshond/standart-akc.html">Стандарт АКС</a></li>
+                  <li><a href="/keeshond/with-children.html">Кеесхонды и дети</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"  {% if page.menu == 'puppies' %} class='active' {% endif %}>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Щенки
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/puppies/">Щенки на продажу</a></li>
+                  <li><a href="/puppies/litters.html">Наши пометы</a></li>
+                  <li><a href="/puppies/puppies.html">Выбор щенка</a></li>
+                  <li><a href="/puppies/jotting.html">Памятка владельцу</a></li>
+                  <li><a href="/puppies/growing-up.html">Этапы взросления щенка</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" {% if page.menu == 'useful' %} class='active' {% endif %}>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Полезное
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/useful/health.html">Здоровье</a></li>
+                  <li><a href="/useful/care.html">Уход</a></li>
+                  <li><a href="/useful/training.html">Воспитание</a></li>
+                  <li><a href="/useful/breeding.html">Разведение</a></li>
+                  <li><a href="/useful/literature.html">Литература</a></li>
+                </ul>
+              </li>
+              <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
