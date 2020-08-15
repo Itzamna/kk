@@ -1,6 +1,4 @@
-<script type="text/javascript" src="{{ site.url }}/assets/plugins/jquery/jquery.min.js"></script>
 <div class="owl-carousel owl-theme">
-  
     {% for i in page.supergallery %}
       <div class="item" >
         <a href="../public/images/photo/{{ i }}" class="fancybox img-hover-v1" rel="gallery"><img class="img-responsive" src="../public/images/photo-height/{{ i }}"></a>
@@ -8,12 +6,11 @@
      {% endfor %}
 </div>
 
-
 <script>
-  $(document).ready(function() {
+  $(window).on('load',function(){
     $('.owl-carousel').owlCarousel({
         margin: 5,
-        loop:true,
+        loop:false,
         autoWidth:true,
         items:6
     })

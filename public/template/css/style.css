@@ -87,7 +87,10 @@ text-decoration: none;
   clear:both; 
 }
 .footer {
-text-align:center;
+  text-align:center;
+  margin-top:20px;
+  border-top: 1px dashed #eee;;
+  padding-top:10px;
 }
 .header-v4 .navbar{
   color: #585858;
@@ -163,7 +166,7 @@ h3{
 
 	padding-top: 30px;
 	padding-left:80px;
-	height:38px;
+	height:68px;
 
 	margin-bottom: 10px;
 }
@@ -293,4 +296,34 @@ input {
 	-webkit-border-radius:5px; 
 	-moz-border-radius:5px; 
   text-align: center;
+}
+
+.pedigree-name {
+  color: #87a4f0; 
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 600;
+  padding-left:10px;
+}
+.pedigree-titles {
+    color: #685920;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: 100;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.pedigree-tests {
+    color: #a96351;
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-weight: 100;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.dropdown-menu {
+  min-width: 260px;
+}
+.skiptranslate {
+    display: none !important;
 }

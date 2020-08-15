@@ -1,0 +1,21 @@
+<div class="owl-carousel owl-theme  gallery-8 ">
+    {% for i in page.supergallery8 %}
+      <div class="item" >
+        <a href="../public/images/photo/{{ i }}" class="fancybox img-hover-v1" rel="gallery"><img class="img-responsive" src="../public/images/photo-height/{{ i }}"></a>
+      </div>
+     {% endfor %}
+</div>
+
+
+<script>
+  $(window).on('load',function() {
+    $('.gallery-8').owlCarousel({
+        margin: 5,
+        loop:true,
+        autoWidth:true,
+        items:6
+    })
+  })
+</script>
+
+
